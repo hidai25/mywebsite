@@ -1,11 +1,11 @@
 {
   "name": "mywebsite",
   "version": "3.0.1",
-  "homepage": "https://hidaibarmor.com/",
+  "homepage": " https://hidai25.github.io/mywebsite/",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/hidai25/mywebsite.git"
+    "url": "https://hidai25.github.io/mywebsite/"
   },
   "scripts": {
     "build": "rimraf ./build && react-scripts build",
