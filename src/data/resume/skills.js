@@ -33,11 +33,6 @@ const skills = [
     category: ['Web Development', 'Tools'],
   },
   {
-    title: 'MongoDB',
-    competency: 3,
-    category: ['Web Development', 'Databases'],
-  },
-  {
     title: 'ElasticSearch',
     competency: 2,
     category: ['Web Development', 'Databases'],
