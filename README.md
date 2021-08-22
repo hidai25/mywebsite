@@ -1,5 +1,5 @@
 
-# Personal Website
+# My Website
 
 See: [hidaibarmor.com](https://hidaibarmor.com).
 
@@ -8,4 +8,3 @@ My personal website. A simple, easily modifiable, statically-exportable [React](
 ## Acknowledgements
 * (https://github.com/mldangelo/personal-site/pull/218) .
 =======
-
