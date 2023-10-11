@@ -19,7 +19,7 @@ const SideBar = () => (
     <section className="blurb">
       <h2>About</h2>
       <p>Hi, I&apos;m Hidai. I like building things.
-        I am a <a href="https://extension.harvard.edu/">Harvard extension school</a> software engineering last year student, Financial professional, and
+        I am a <a href="https://extension.harvard.edu/">Harvard extension school</a> software engineering graduate, Financial professional, and
         currently employed as interest rates trader in Mizrahi Bank in Tel-Aviv.
       </p>
       <ul className="actions">
