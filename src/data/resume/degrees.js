@@ -1,7 +1,7 @@
 const degrees = [
   {
     school: 'Harvard Extension School',
-    degree: 'Master of Liberal Arts in Software Engineering last year student',
+    degree: 'Master of Liberal Arts in Software Engineering Graduate',
     link: 'https://extension.harvard.edu/',
     year: 2022,
   },
