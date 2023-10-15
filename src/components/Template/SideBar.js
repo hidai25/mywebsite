@@ -15,20 +15,7 @@ const SideBar = () => (
         <p><a href="mailto:hidai25@gmail.com">hidai25@gmail.com</a></p>
       </header>
     </section>
-
-    <section className="blurb">
-      <h2>About</h2>
-      <p>Hi, I&apos;m Hidai. I like building things.
-        I am a <a href="https://extension.harvard.edu/">Harvard extension school</a> software engineering graduate, Financial professional, and
-        currently employed as interest rates trader in Mizrahi Bank in Tel-Aviv.
-      </p>
-      <ul className="actions">
-        <li>
-          {!window.location.pathname.includes('/resume') ? <Link to="/resume" className="button">Learn More</Link> : <Link to="/about" className="button">About Me</Link>}
-        </li>
-      </ul>
-    </section>
-
+    <section className="blurb" />
     <section id="footer">
       <ContactIcons />
       <p className="copyright">&copy; Hidai Bar-Mor <Link to="/">hidaibarmor.com</Link>.</p>

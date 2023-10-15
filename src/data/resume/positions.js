@@ -9,7 +9,7 @@ const positions = [
       'Deployed startegies to predict USD and EUR interest rates direction',
       'Managed a trading book',
       'Managed the banks liquidity needs.',
-      'Manager a govermnent bond market making book.'
+      'Managed a govermnent bond market making book.',
     ],
   },
   {
