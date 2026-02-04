@@ -33,7 +33,7 @@ jobs:
         env:
           NODE_ENV: production
           REACT_APP_GA_TRACKING_ID: UA-68649021-1
-        run: npm run build && npx react-snap
+        run: npm run build
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
