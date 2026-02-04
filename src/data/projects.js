@@ -19,7 +19,7 @@ const data = [
   {
     title: 'GanttGo',
     subtitle: 'Project Planning Tool',
-    link: 'https://github.com/hidai25/ganttgo',
+    link: 'https://monday.com/marketplace/listing/10001037/ganttgo',
     image: '/images/projects/ganttgo.jpg',
     date: '2023-08-20',
     desc:
@@ -36,7 +36,7 @@ const data = [
   {
     title: 'WristRoad',
     subtitle: 'Apple Watch Game',
-    link: 'https://github.com/hidai25/wristroad',
+    link: 'https://wristroad.com/',
     image: '/images/projects/wristroad.jpg',
     date: '2023-05-10',
     desc:
