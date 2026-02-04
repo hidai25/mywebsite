@@ -6,37 +6,45 @@ import Main from '../layouts/Main';
 const Index = () => (
   <Main
     description={
-      'Hidai Bar-Mor\'s personal website. '
-      + 'Tel-Aviv based Harvard extensions school '
-      + 'software engineering graduate'
+      'Hidai Bar-Mor - AI/ML Engineer & Software Developer. '
+      + 'Harvard Extension School graduate specializing in LLMs, '
+      + 'machine learning, and intelligent systems.'
     }
   >
     <article className="post" id="index">
       <header>
         <div className="title">
           <h2 data-testid="heading">
-            <Link to="/">About</Link>
+            <Link to="/">Hi, I&apos;m Hidai</Link>
           </h2>
           <p>
-            Welcome to my website. Please feel free to read more{' '}
-            <Link to="/about">about me</Link>, or you can check out my{' '}
-            <Link to="/resume">resume</Link>, <Link to="/projects">projects</Link>, view{' '}
-            <Link to="/stats">site statistics</Link>, or{' '}
-            <Link to="/contact">contact</Link> me.
-          </p>
-          <p>
-            Source available{' '}
-            <a href="https://github.com/hidai25/my_website">here</a>.
+            AI/ML Engineer building intelligent systems at the intersection of
+            finance and technology.
           </p>
         </div>
       </header>
-      <p>I&apos;m Hidai. I like building things.
-        I am a <a href="https://extension.harvard.edu/">Harvard extension school</a> software engineering graduate, Financial professional, and
-        currently employed as interest rates trader in Mizrahi Bank in Tel-Aviv.
+      <p>
+        I&apos;m an{' '}
+        <a href="https://extension.harvard.edu/">Harvard Extension School</a>{' '}
+        software engineering graduate with 15+ years in quantitative finance.
+        I build LLM-powered applications, ML pipelines, and data products that
+        solve complex problems.
+      </p>
+      <p>
+        Currently focused on AI evaluation frameworks, RAG systems, and
+        applying machine learning to financial markets.
       </p>
       <ul className="actions">
         <li>
-          {!window.location.pathname.includes('/resume') ? <Link to="/resume" className="button">Learn More</Link> : <Link to="/about" className="button">About Me</Link>}
+          {!window.location.pathname.includes('/projects') ? (
+            <Link to="/projects" className="button">
+              View Projects
+            </Link>
+          ) : (
+            <Link to="/about" className="button">
+              About Me
+            </Link>
+          )}
         </li>
       </ul>
     </article>
