@@ -1,31 +1,54 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import dayjs from 'dayjs';
 
 const Cell = ({ data }) => (
-  <div className="cell-container">
-    <article className="mini-post">
-      <header>
-        <h3><a href={data.link}>{data.title}</a></h3>
-        <time className="published">{dayjs(data.date).format('MMMM, YYYY')}</time>
-      </header>
-      <a href={data.link} className="image">
-        <img src={`${process.env.PUBLIC_URL}${data.image}`} alt={data.title} />
-      </a>
-      <div className="description">
-        <p>{data.desc}</p>
+  <div className="project-card">
+    <div className="project-content">
+      <div className="project-header">
+        <h3>
+          <a href={data.link} target="_blank" rel="noopener noreferrer">
+            {data.title}
+          </a>
+        </h3>
+        <span className="project-subtitle">{data.subtitle}</span>
       </div>
-    </article>
+      <p className="project-desc">{data.desc}</p>
+      {data.highlights && (
+        <ul className="project-highlights">
+          {data.highlights.map((item) => (
+            <li key={item}>{item}</li>
+          ))}
+        </ul>
+      )}
+      {data.tech && (
+        <div className="project-tech">
+          {data.tech.map((tech) => (
+            <span key={tech} className="tech-tag">{tech}</span>
+          ))}
+        </div>
+      )}
+      <a
+        href={data.link}
+        className="project-link"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        View Project →
+      </a>
+    </div>
   </div>
 );
 
 Cell.propTypes = {
   data: PropTypes.shape({
     title: PropTypes.string.isRequired,
+    subtitle: PropTypes.string,
     link: PropTypes.string,
-    image: PropTypes.string.isRequired,
+    image: PropTypes.string,
     date: PropTypes.string.isRequired,
     desc: PropTypes.string.isRequired,
+    tech: PropTypes.arrayOf(PropTypes.string),
+    highlights: PropTypes.arrayOf(PropTypes.string),
   }).isRequired,
 };
 
