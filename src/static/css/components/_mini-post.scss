@@ -134,6 +134,26 @@
       transform: translateX(4px);
     }
   }
+
+  // Mobile responsiveness
+  @media (max-width: 736px) {
+    .project-content {
+      padding: 1.25rem;
+    }
+
+    .project-header h3 {
+      font-size: 1.15rem;
+    }
+
+    .project-tech {
+      gap: 0.4rem;
+
+      .tech-tag {
+        font-size: 0.7rem;
+        padding: 0.25rem 0.6rem;
+      }
+    }
+  }
 }
 
 /* Projects intro text */
