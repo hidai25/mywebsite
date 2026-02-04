@@ -35,19 +35,19 @@ const data = [
   },
   {
     title: 'WristRoad',
-    subtitle: 'Wearable Data Analytics',
+    subtitle: 'Apple Watch Game',
     link: 'https://github.com/hidai25/wristroad',
     image: '/images/projects/wristroad.jpg',
     date: '2023-05-10',
     desc:
-      'ML-powered analytics for wearable device data. '
-      + 'Aggregate data from Apple Watch, Fitbit, and Garmin '
-      + 'to surface actionable health and training insights.',
-    tech: ['Python', 'Scikit-Learn', 'FastAPI', 'React'],
+      'Native Apple Watch game built with Swift and WatchKit. '
+      + 'An engaging on-the-go gaming experience designed specifically '
+      + 'for the watch form factor with intuitive touch controls.',
+    tech: ['Swift', 'WatchKit', 'SpriteKit', 'SwiftUI'],
     highlights: [
-      'Anomaly detection for health metrics',
-      'Training load optimization',
-      'Multi-device data fusion',
+      'Native watchOS app',
+      'Optimized for small screen UX',
+      'Haptic feedback integration',
     ],
   },
 ];
