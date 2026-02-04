@@ -36,7 +36,7 @@ const data = [
   {
     title: 'WristRoad',
     subtitle: 'Apple Watch Game',
-    link: 'https://github.com/hidai25/wristroad',
+    link: 'https://wristroad.com/',
     image: '/images/projects/wristroad.jpg',
     date: '2023-05-10',
     desc:
