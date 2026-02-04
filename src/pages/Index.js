@@ -6,45 +6,46 @@ import Main from '../layouts/Main';
 const Index = () => (
   <Main
     description={
-      'Hidai Bar-Mor - AI/ML Engineer & Software Developer. '
-      + 'Harvard Extension School graduate specializing in LLMs, '
-      + 'machine learning, and intelligent systems.'
+      'Hidai Bar-Mor - AI/ML Engineer building LLM applications, '
+      + 'evaluation frameworks, and data products. Harvard Extension School '
+      + 'graduate with 15+ years in quantitative finance.'
     }
   >
     <article className="post" id="index">
       <header>
         <div className="title">
           <h2 data-testid="heading">
-            <Link to="/">Hi, I&apos;m Hidai</Link>
+            <Link to="/">Hidai Bar-Mor</Link>
           </h2>
-          <p>
-            AI/ML Engineer building intelligent systems at the intersection of
-            finance and technology.
-          </p>
+          <p>AI/ML Engineer</p>
         </div>
       </header>
       <p>
-        I&apos;m an{' '}
-        <a href="https://extension.harvard.edu/">Harvard Extension School</a>{' '}
-        software engineering graduate with 15+ years in quantitative finance.
-        I build LLM-powered applications, ML pipelines, and data products that
-        solve complex problems.
+        I build AI-powered products that solve real problems. From LLM evaluation
+        frameworks to ML-driven analytics platforms, I focus on shipping tools
+        that deliver measurable impact.
       </p>
       <p>
-        Currently focused on AI evaluation frameworks, RAG systems, and
-        applying machine learning to financial markets.
+        With 15+ years in quantitative finance and a Master&apos;s in Software
+        Engineering from{' '}
+        <a href="https://extension.harvard.edu/">Harvard Extension School</a>,
+        I bring a unique blend of technical depth and business acumen to
+        every project.
+      </p>
+      <p>
+        <strong>What I do:</strong> LLM applications, prompt engineering,
+        RAG systems, ML pipelines, full-stack development.
       </p>
       <ul className="actions">
         <li>
-          {!window.location.pathname.includes('/projects') ? (
-            <Link to="/projects" className="button">
-              View Projects
-            </Link>
-          ) : (
-            <Link to="/about" className="button">
-              About Me
-            </Link>
-          )}
+          <Link to="/projects" className="button">
+            View My Work
+          </Link>
+        </li>
+        <li>
+          <Link to="/about" className="button">
+            Learn More
+          </Link>
         </li>
       </ul>
     </article>

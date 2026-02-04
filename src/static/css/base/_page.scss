@@ -24,7 +24,9 @@
 		}
 
 	body {
-		background: _palette(bg-alt);
+		background: linear-gradient(135deg, #f5f7fa 0%, #e4e8f0 50%, #f0f2f5 100%);
+		background-attachment: fixed;
+		min-height: 100vh;
 
 		// Prevents animation/transition "flicker" on page load.
 		// Automatically added/removed by js/main.js.
